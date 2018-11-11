@@ -1,0 +1,29 @@
+{
+  "name": "officeoursbootstrap",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Nahum Lazarus <ntlazarus@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ntlazarus/OfficeOursBootstrap",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.min.css",
+        "dist/js/bootstrap.js",
+        "less/bootstrap.less"
+      ]
+    }}
+}
